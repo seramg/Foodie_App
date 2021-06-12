@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:problem_statement/SignIn/SignInScreen.dart';
+import 'package:problem_statement/home.dart';
+import 'package:problem_statement/home.dart';
 
 void main() {
   runApp(Foodie());
@@ -14,7 +16,7 @@ class Foodie extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xFF0A0E21),
 
       ),
-      home: SignIn(),
+      home:HomePage(),
     );
   }
 }

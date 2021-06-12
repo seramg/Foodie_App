@@ -26,6 +26,9 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                         style: TextStyle(color: kWhite, fontSize: 54, fontWeight: FontWeight.bold),
                         textAlign: TextAlign.center,
                       ),
+                      // TextButton(
+                      //   "SignIn"
+                      // )
                     ],
                   ),
                 )
