@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:problem_statement/SignIn/SignInScreen.dart';
-import 'package:problem_statement/home.dart';
-import 'package:problem_statement/home.dart';
+import 'package:problem_statement/restaurants.dart';
 
 void main() {
   runApp(Foodie());
@@ -14,10 +12,8 @@ class Foodie extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         primaryColor: Color(0xFF0A0E21),
         scaffoldBackgroundColor: Color(0xFF0A0E21),
-
       ),
-      home:HomePage(),
+      home: HomePage(),
     );
   }
 }
-
